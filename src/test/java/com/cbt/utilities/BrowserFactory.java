@@ -10,6 +10,11 @@ import org.openqa.selenium.safari.SafariDriver;
 
 public class BrowserFactory {
 
+    /**
+     * returns a driver object based on the given browserType
+     * @param browserType
+     * @return WebDriver
+     */
     public static WebDriver getDriver(String browserType){
 
         WebDriver driver = null;
